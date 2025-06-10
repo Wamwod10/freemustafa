@@ -6,21 +6,21 @@ const Contact = () => {
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      value: '+998 (33) 500 45 10',
+      link: 'tel:+998335004510',
       gradient: 'from-green-500 to-emerald-600'
     },
     {
       icon: Mail,
       label: 'Email',
-      value: 'developer@example.com',
-      link: 'mailto:developer@example.com',
+      value: 'shamshodochilov160@gmail.com',
+      link: 'shamshodochilov160@gmail.com',
       gradient: 'from-blue-500 to-cyan-600'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA, USA',
+      value: 'Toshkent, Uzbekistan',
       link: '#',
       gradient: 'from-purple-500 to-pink-600'
     }
@@ -183,7 +183,7 @@ const Contact = () => {
               rel="noopener noreferrer"
               className="px-6 py-3 bg-sky-500 text-white font-semibold rounded-lg hover:bg-sky-600 transition-colors duration-300 transform hover:scale-105"
             >
-              Twitter
+              Telegram
             </a>
             <a
               href="https://github.com"
