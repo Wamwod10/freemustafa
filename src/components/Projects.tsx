@@ -149,7 +149,7 @@ const Projects = () => {
         <div className="text-center mt-16">
           <p className="text-gray-400 mb-6">Interested in seeing more of my work?</p>
           <a
-            href="https://github.com"
+            href="https://github.com/Wamwod10"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-8 py-3 bg-transparent border-2 border-cyan-400 text-cyan-400 font-semibold rounded-full hover:bg-cyan-400 hover:text-black transition-all duration-300 transform hover:scale-105 group"

@@ -40,12 +40,12 @@ const Footer = () => {
           </div>
 
           {/* Social Links */}
-          <div className="flex justify-center space-x-6 mb-8">
+          <div className="flex justify-center space-x-6">
             {[
-              { name: 'GitHub', href: 'https://github.com' },
-              { name: 'LinkedIn', href: 'https://linkedin.com' },
-              { name: 'Twitter', href: 'https://twitter.com' },
-              { name: 'Email', href: 'mailto:developer@example.com' }
+              { name: 'GitHub', href: 'https://github.com/Wamwod10' },
+              { name: 'LinkedIn', href: 'https://www.linkedin.com/in/shamshod-shamshod-27895a343/' },
+              { name: 'Telegram', href: 'https://t.me/freemustafa' },
+              { name: 'Email', href: '#' }
             ].map((social) => (
               <a
                 key={social.name}
@@ -62,14 +62,14 @@ const Footer = () => {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-gray-800">
+      {/* <div className="border-t border-gray-800"> */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           {/* Long horizontal line */}
           <div className="w-full h-px bg-gradient-to-r from-transparent via-cyan-400 to-transparent mb-6"></div>
           
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex items-center space-x-2 text-gray-400">
-              <span>© 2024 Frontend Developer Portfolio.</span>
+              <span>© 2025 Frontend Developer Portfolio.</span>
               <span>All rights reserved.</span>
             </div>
             
@@ -80,7 +80,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </footer>
   );
 };

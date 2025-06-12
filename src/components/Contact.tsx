@@ -40,7 +40,6 @@ const Contact = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
-          {/* Contact Information */}
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-bold text-white mb-6 flex items-center">
@@ -54,7 +53,6 @@ const Contact = () => {
               </p>
             </div>
 
-            {/* Contact Cards */}
             <div className="space-y-4">
               {contactInfo.map((item, index) => (
                 <a
@@ -106,7 +104,7 @@ const Contact = () => {
                   <input
                     type="text"
                     className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-colors duration-300"
-                    placeholder="John"
+                    placeholder="First Name"
                   />
                 </div>
                 <div>
@@ -116,7 +114,7 @@ const Contact = () => {
                   <input
                     type="text"
                     className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-colors duration-300"
-                    placeholder="Doe"
+                    placeholder="Last Name"
                   />
                 </div>
               </div>
@@ -170,7 +168,7 @@ const Contact = () => {
           <p className="text-gray-400 mb-6">Prefer a different way to connect?</p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/shamshod-shamshod-27895a343/"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-300 transform hover:scale-105"
@@ -178,7 +176,7 @@ const Contact = () => {
               LinkedIn
             </a>
             <a
-              href="https://twitter.com"
+              href="https://t.me/freemustafa"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 bg-sky-500 text-white font-semibold rounded-lg hover:bg-sky-600 transition-colors duration-300 transform hover:scale-105"
@@ -186,7 +184,7 @@ const Contact = () => {
               Telegram
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/Wamwod10"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 bg-gray-800 text-white font-semibold rounded-lg hover:bg-gray-700 transition-colors duration-300 transform hover:scale-105"
