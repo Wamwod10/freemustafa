@@ -44,10 +44,10 @@ const Projects = () => {
       gradient: 'from-indigo-500 to-blue-600'
     },
     {
-      title: 'Learning Management System',
-      description: 'Educational platform with course management, video streaming, and progress tracking.',
-      tech: ['Angular', 'Node.js', 'MongoDB', 'Socket.io'],
-      link: 'https://example.com',
+      title: 'Media Lux',
+      description: 'A professional agency providing outdoor and digital advertising services in Uzbekistan.',
+      tech: ['React', 'Node.js', 'Tailwind', 'i18'],
+      link: 'https://medialux.uz',
       github: 'https://github.com',
       gradient: 'from-yellow-500 to-orange-600'
     }
